@@ -68,6 +68,7 @@ main{
 }
 .clci{
     padding-right: 5px;
+    color: hsl(215, 51%, 70%);
 }
 .avatar{
     display: flex;
