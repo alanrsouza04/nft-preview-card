@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 18px;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(217, 54%, 11%);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    width: 350px;
+    height: 538px;
+    align-self: center;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    margin-left: 25px;
+    box-shadow: 20px 20px 20px 20px hsl(217, 54%, 10%);
+    
+}
+#equi{
+    width: 300px;
+    height: 280px;
+    margin-top: 20px;
+    border-radius: 15px;
+    margin-left: 25px;
+}
+
+.info{
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#h1{
+    text-decoration: none;
+    color: white;
+}
+.txt{
+    margin-top: 20px;
+    color: hsl(215, 51%, 70%);
+}
+    
+.ETH{
+    display: flex;
+    color:hsl(178, 100%, 50%); 
+    height: 18px;
+    width: 40px;
+    float: left;
+    margin-top: 20px;
+}
+.ETHI{
+    padding-right: 5px;
+}
+
+.time{
+    display: flex;
+    float: right;
+    margin-top: 20px;
+}
+.clci{
+    padding-right: 5px;
+}
+.avatar{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 20px;
+    padding-top: 10px;
+    border: solid;
+    border-color: hsl(215, 32%, 27%);
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding-bottom: 10px;
+}
+.avt{
+    height: 40px;
+    border: solid;
+    border-radius: 50%;
+    border-color: white;
+    margin-right: 5px;
+    align-self: center;
+    
+}
+.crea{
+    padding-left: 10px;
+    padding-top: 10px;
+    color: hsl(215, 51%, 70%);
+}
+.crea a{
+    color: white;
+    text-decoration: none;
+}
